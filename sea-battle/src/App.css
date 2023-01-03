@@ -28,10 +28,18 @@ h2 {
   cursor: url(cursor.png), url(cursor2.svg), pointer;
 }
 
+@media(max-width: 500px) {
+  .row {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 main {
   display: flex;
   justify-content: center;
-  gap: 20%
+  gap: 20%;
+  flex-wrap: wrap;
 }
 
 .win {

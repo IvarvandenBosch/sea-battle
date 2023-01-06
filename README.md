@@ -3,4 +3,4 @@ Sea Battle is a game I used to enjoy as a kid, you would place your boats on dif
 You win when you've guessed all the boats on the board.
 
 ## Preview
-No preview yet
+![afbeelding](https://user-images.githubusercontent.com/78146502/211026661-c71394ba-923e-46db-a049-647359f90f99.png)

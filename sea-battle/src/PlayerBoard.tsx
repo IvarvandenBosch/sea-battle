@@ -249,33 +249,6 @@ export default function PlayerBoard() {
             }
           }
 
-          // function generateRandom(key: string) {
-          //   if (key === 'noRandom') {
-          //     console.log('generated a random one')
-          //     if (shipField[randomX][randomY] === true) {
-          //       newShipField[randomX][randomY] = 'red'
-          //       setClicked({x: randomX, y: randomY})
-          //     } else if (shipField[randomX][randomY] === false) {
-          //       newShipField[randomX][randomY] = 'blue'
-          //     } else if (shipField[randomX][randomY] === 'blue' || shipField[randomX][randomY] === 'red'){
-          //       generateRandom('yesRandom')
-          //     }
-          //   } else if (key === 'yesRandom') {
-          //     console.log('generated a completely random one')
-          //     tryAgain()   
-              
-          //     if (shipField[randomX][randomY] === true) {
-          //       newShipField[randomX][randomY] = 'red'
-          //       setClicked({x: randomX, y: randomY})
-          //     } else if (shipField[randomX][randomY] === false) {
-          //       newShipField[randomX][randomY] = 'blue'
-          //     } else if (shipField[randomX][randomY] === 'blue' || shipField[randomX][randomY] === 'red'){
-          //       generateRandom('yesRandom')
-          //     }
-          //     setClicked(undefined) 
-          //   }
-          // }
-
           if (previous === undefined) {
             generateRandom('noRandom')
           } else {
